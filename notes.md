@@ -11,7 +11,10 @@
 - `use strict` is a directive that indicates that the code should be executed in "strict mode", thus only modern style is allowed. 
 - `camelCase` for constants which are not known prior the execution. 
 - `CAPITAL_LETTERS` for constants which are known prior the execution. Hard-coded values. 
-- 
+
+
+stop at 2.4 variable
+
 
 
 
