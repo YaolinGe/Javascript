@@ -27,6 +27,8 @@
 - `??` returns the first defined value. 
 - `for(;;)` creates an infinite loop. 
 - `return; ` will give undefined for the function. 
+==== Most of those fundamental code are in 2.18, Javascript specials ====
+
 
 
 #### String
