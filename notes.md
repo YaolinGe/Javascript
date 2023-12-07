@@ -46,6 +46,42 @@ describe("pow", function() {
 - `debugger` can be added to the code to make it stop.
 - split code into logical blocks to make it easier to read and clean.
 
+#### Objects 
+- `let user = new Object();` to create an object.
+- `let user = {};` to create an object.
+- `delete user.age` to remove property from an object.
+- `user.isAdmin = true; ` to add property to an object. 
+- `"likes birds": true; ` can be multiword property in an object. 
+- `user["likes birds"] = true; ` to add multiword property in an object.
+- ```{javascript}
+function makeUser(name, age) {
+  return {
+    name: name,
+    age: age
+  };
+}``` to create an object with function.
+- ```{javascript}
+function makeUser(name, age) {
+  return {
+    name, // same as name: name
+    age   // same as age: age
+  };
+}``` to create an object with function.
+- `let obj = {for:1, let:2, return:3};` to create an object with reserved words.
+- `let obj = {}; obj.__proto__ = 5; X` this will not work, as `__proto__` is a special property that must be either an object or null.
+- `let user = {}; alert(user.noSuchProperty === undefined);` to check if a property exists. It means javascript can access any property, and if it does not exist, it will return `undefined`. No error will be thrown.
+- `alert("blabla" in user); ` to have true or false for the existence of a property.
+- `for (let key in user) alert(key);` to loop over keys in an object.
+- `for (let key in user) alert(user[key]);` to loop over values in an object.
+- if integers as key are used, then they will be sorted in ascending order. Others will be sorted in creation order.
+- `const user = { name: "John" }; ` says that the variable `user` will always reference this object, but not the values inside the object. 
+- `Object.assign({}, user); ` to copy an object. It can also rewrite the object, if the property is already given. 
+- `let clone = structuredClone(obj); ` to copy an object recursively. 
+- `let user = {name:"John", age:30, sayHi(){alert(this.name);};` to reference the name inside the object. 
+- `this` is tricky to use and need more attention. 
+
+
+
 
 #### String
 - `backticks` are used to make strings connect with each other.
