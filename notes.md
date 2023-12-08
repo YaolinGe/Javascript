@@ -79,6 +79,8 @@ function makeUser(name, age) {
 - `let clone = structuredClone(obj); ` to copy an object recursively. 
 - `let user = {name:"John", age:30, sayHi(){alert(this.name);};` to reference the name inside the object. 
 - `this` is tricky to use and need more attention. 
+- `return` can be added to make it return object. 
+- `let user = new User;`   
 
 
 
