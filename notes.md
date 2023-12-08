@@ -80,9 +80,10 @@ function makeUser(name, age) {
 - `let user = {name:"John", age:30, sayHi(){alert(this.name);};` to reference the name inside the object. 
 - `this` is tricky to use and need more attention. 
 - `return` can be added to make it return object. 
-- `let user = new User;`   
-
-
+- `let user = new User;` can be used without parenthesis.
+-  `user?.address` to check safely before the object is created.
+- `Symbol("id").toString()` to explicitly convert symbol to string.
+- `Symbol("id").description` to get the description of the symbol.
 
 
 #### String
