@@ -85,6 +85,8 @@ function makeUser(name, age) {
 - `Symbol("id").toString()` to explicitly convert symbol to string.
 - `Symbol("id").description` to get the description of the symbol.
 
+- I should move on to the D3 library to make some graphs or plots.
+
 
 #### String
 - `backticks` are used to make strings connect with each other.
