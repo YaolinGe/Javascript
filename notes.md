@@ -36,7 +36,7 @@ describe("pow", function() {
   });
 ``` to create testing functionalities, `Mocha`, `Chai`, `Sinon` different frameworks.
 - `polyfills` and `transpilers` can be useful tools.
-- updates
+
 
 ==== Most of those fundamental code are in 2.18, Javascript specials ====
 
@@ -92,4 +92,6 @@ function makeUser(name, age) {
 - `backticks` are used to make strings connect with each other.
 
 
-stop at 2.4 variable
+
+#### Notes
+- `document.write()` after the page is loaded will delete the page and write the new content.
