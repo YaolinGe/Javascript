@@ -86,7 +86,7 @@ function makeUser(name, age) {
 - `Symbol("id").description` to get the description of the symbol.
 
 - I should move on to the D3 library to make some graphs or plots.
-
+- How can I start building something useful. 
 
 #### String
 - `backticks` are used to make strings connect with each other.
