@@ -1,4 +1,5 @@
 # Notes for javascript
+Update notes 
 
 ## Intro to javascript
 - `<script src="/path/to/scripts.js"></script>` to add path to many javascripts files that are in a separate folder.
@@ -86,7 +87,7 @@ function makeUser(name, age) {
 - `Symbol("id").description` to get the description of the symbol.
 
 - I should move on to the D3 library to make some graphs or plots.
-- How can I start building something useful. 
+- How can I start building something useful.
 
 #### String
 - `backticks` are used to make strings connect with each other.
