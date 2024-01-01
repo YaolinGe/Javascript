@@ -1,5 +1,4 @@
 # Notes for javascript
-Update notes 
 
 ## Intro to javascript
 - `<script src="/path/to/scripts.js"></script>` to add path to many javascripts files that are in a separate folder.
