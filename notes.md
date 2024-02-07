@@ -3,7 +3,7 @@
 ## Cousera - Programming with Javascript
 - `console.log("%cHello World!", "color:blue; font-size:40px")` to output `Hello World` with style.
 - `===` and `!==` are strict equality operators and check both data and types.
-
+- 
 
 ## Intro to javascript
 - `<script src="/path/to/scripts.js"></script>` to add path to many javascripts files that are in a separate folder.
