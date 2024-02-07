@@ -46,3 +46,114 @@ var counter = 0;
 counter += 5; 
 counter += 3; 
 console.log(counter);
+
+var result = 50; 
+if (result < 50) {
+    console.log("You failed");
+}
+else {
+    console.log("You passed");
+}
+
+var age = 80; 
+// add a pop up to ask for the user's age
+// var age = prompt("What is your age?");
+
+if (age >= 65)
+{
+    console.log("You get your income from your pension. ");
+}
+else if (age < 65 && age >= 18)
+{
+    console.log("Each month you get a salary."); 
+}
+else if (age < 18)
+{
+    console.log("You get an allowance."); 
+}
+else 
+{
+    console.log("The value of the age variable is not numerical. "); 
+}
+
+var day = "Sunday"; 
+switch (day)
+{
+    case "Monday":
+        console.log("Today is Monday");
+        break;
+    case "Tuesday":
+        console.log("Today is Tuesday");
+        break;
+    case "Wednesday":
+        console.log("Today is Wednesday");
+        break;
+    case "Thursday":
+        console.log("Today is Thursday");
+        break;
+    case "Friday":
+        console.log("Today is Friday");
+        break;
+    case "Saturday":
+        console.log("Today is Saturday");
+        break;
+    case "Sunday":
+        console.log("Today is Sunday");
+        break;
+    default:
+        console.log("The value of the day variable is not a day of the week. ");
+}
+
+for (var i = 0; i < 11; i++)
+{
+    console.log("The value of i is: ", i);
+}
+
+var i = 0; 
+while (i < 11)
+{
+    console.log("The value of i is: ", i);
+    i++;
+}
+
+for (var i = 1; i < 6; i++)
+{
+    console.log(i); 
+}
+console.log("Counting completed!"); 
+
+for (var i = 5; i > 0; i--)
+{
+    console.log(i); 
+}
+console.log("Countdown finished!"); 
+
+var i = 1; 
+while (i < 6)
+{
+    console.log(i);
+    i += 1;  
+}
+console.log("Counting compoleted!"); 
+
+var i = 5; 
+while (i > 0)
+{
+    console.log(i); 
+    i -= 1;
+}
+console.log("Countdown finished!"); 
+
+var i = 2018; 
+while (i < 2023)
+{
+    console.log(i); 
+    i++; 
+}
+
+var cubes = "ABCDEFG"; 
+for (var i = 0; i < cubes.length; i++)
+{
+    var styles = "font-size: 40px; border-radius: 10px; border: 1px solid blue; background: pink; color: purple; "; 
+    console.log("%c" + cubes[i], styles); 
+}
