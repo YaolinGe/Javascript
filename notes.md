@@ -3,7 +3,12 @@
 ## Cousera - Programming with Javascript
 - `console.log("%cHello World!", "color:blue; font-size:40px")` to output `Hello World` with style.
 - `===` and `!==` are strict equality operators and check both data and types.
-- 
+- `charAt()`, `indexOf()`, `concat()`, `lastIndexOf()`, `split()`, `toUpperCase()`, `toLowerCase()` are the most common string methods.
+- `typeof()` to check the data types.
+- `(10).toString(2)` to convert Base-10 to Base-2 system.
+- `letters.match(/a/)` to search for the matching letter in the string letters.
+- Syntax error cannot be caught, thus it will not be possible to use try and catch block.
+
 
 ## Intro to javascript
 - `<script src="/path/to/scripts.js"></script>` to add path to many javascripts files that are in a separate folder.
