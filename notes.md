@@ -8,6 +8,8 @@
 - `(10).toString(2)` to convert Base-10 to Base-2 system.
 - `letters.match(/a/)` to search for the matching letter in the string letters.
 - Syntax error cannot be caught, thus it will not be possible to use try and catch block.
+- `let` is used when variable can be changed, `const` is used when it is constant. `const` has to be initialized when declared.
+- `Object.create(object)` to create an object.
 
 
 ## Intro to javascript
