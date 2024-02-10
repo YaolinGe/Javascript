@@ -10,6 +10,7 @@
 - Syntax error cannot be caught, thus it will not be possible to use try and catch block.
 - `let` is used when variable can be changed, `const` is used when it is constant. `const` has to be initialized when declared.
 - `Object.create(object)` to create an object.
+- `let {PI} = Math` to destructure the property.
 
 
 ## Intro to javascript
