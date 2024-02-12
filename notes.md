@@ -10,8 +10,21 @@
 - Syntax error cannot be caught, thus it will not be possible to use try and catch block.
 - `let` is used when variable can be changed, `const` is used when it is constant. `const` has to be initialized when declared.
 - `Object.create(object)` to create an object.
-- `let {PI} = Math` to destructure the property.
-
+- `let {PI} = Math` to destructure the property, it can also be used to destructure an array.
+- `for in` loop is not so reliable, as it will also include properties from the prototype.
+- `for of` loop is more reliable, as it will only print out the property from the object.
+- `backticks` can be used for template literals such as `hello, ${variable}!`
+- `backticks` can also be used to create multi-line strings.
+- `object; array; map; set` are four main data structures in javascript.
+- `forEach()` can be used to apply function to loop through the array items.
+- `filter()` applies a filter the array based on a specific test.
+- `map()` applies the function to each item of the array.
+- `someFunction(...top7)` is the spread operator to automatically lists the array.
+- `someFunction(para1, ...array)` is the rest operator to apply the para1 to all the items in the array.
+- ES6 introduced modules to browser so that it can be reused.
+- `<script type="text/script></script>"` has type default value of `text/script` automatically filled, so we don't have to explicitly specify this again, we just need to fill those javascript commands.
+- `test.html` can be launched with live server if it includes some `test.js` files to be loaded for modules for testing.
+- `document.CreateElement()` to do  
 
 ## Intro to javascript
 - `<script src="/path/to/scripts.js"></script>` to add path to many javascripts files that are in a separate folder.
