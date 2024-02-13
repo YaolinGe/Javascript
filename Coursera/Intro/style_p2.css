@@ -1,0 +1,38 @@
+h1 {
+    color: purple; 
+}
+
+#header1 {
+    color: green;
+}
+
+#test > h1 {
+    color: blue; 
+}
+
+h1:hover {
+    color: orange; 
+}
+
+p { 
+    text-decoration: underline red solid 5px;
+}
+
+#inline {
+    display: inline;
+}
+
+.parent {
+    border: 4px solid red; 
+}
+
+.child {
+    float: right; 
+    width: 50%; 
+    /* display: block; 
+    width: 50%; 
+    padding: 20px; 
+    border: 4px solid green; 
+    margin-left: auto; 
+    margin-right: auto;  */
+}

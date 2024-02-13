@@ -23,5 +23,39 @@
 ## HTML basics
 - form
   - <input />
-  - type = "radio", "password", "text", "checkbox", "submit", "email", 
+  - type = "radio", "password", "text", "checkbox", "submit", "email",
   - some other types such as textareal, select
+
+## CSS basics
+- `#id h1` is descendent selector to choose the specific h1 inside the id element.
+- `#id > h1` is child selector to only select the immediate element of that selector, if there exists more h1, the first level of h1 will be chosen. If there exists more levels of h1, which are wrapped inside another div, then it will not be selected.
+- `block` and `inline` are two most common ways of presenting the document flow.
+- `block` such as `div`, `form`, `h1` -> `h5`
+- `inline` such as `a`, `img`, `input`, `label`, `b`, `i`, `em`, `span`
+- `margin=auto` only works for block elements, for inline elements, they need to be converted to block first.
+
+## Libraries and framework
+- `Gulp` and `webpack` are bundling tools to gather all the essential dependencies to a single file.
+- responsive designs
+  - flexible grids: columns, gutters, margin
+  - fluid images: maximum-width: 100%
+  - media queries
+- breakpoint
+  - extra small               <576px
+  - small               sm    >=576px
+  - medium              md    >=768px
+  - large               lg    >=992px
+  - extra large         xl    >=1200px
+  - extra extra large   xxl   >=1400px
+- modifiers:
+  - primary     blue
+  - secondary
+  - success
+  - info
+  - warning
+  - danger      red
+  - light
+  - dark
+- SPA, only renders the essential updates and rewrites the current html page.
+- `bundling` and `lazy loading`
+- `React` will build a virtual DOM and then update based on the discrepency between the virtual DOM and the browser DOM.
