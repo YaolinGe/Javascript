@@ -25,6 +25,26 @@
 - `<script type="text/script></script>"` has type default value of `text/script` automatically filled, so we don't have to explicitly specify this again, we just need to fill those javascript commands.
 - `test.html` can be launched with live server if it includes some `test.js` files to be loaded for modules for testing.
 - `document.CreateElement()` to do  
+- `npm init` to start a new project, a `package.json` will be created in the project folder, holds essential packages or modules that need to be installed.
+- `npm i react; npm i webpack; npm i bootstrap-vue; npm i @angular/core`.
+- `npm install` will automatically load the `package.json` file loaded in the project folder to install all the essential packages.
+- `node -v`
+- `npm -v` to check the version of the npm package manager.
+- `node app.js` to launch the app written in javascript language.
+- `npm install lower-case` to install any npm module so that I can import them later.
+- `npm install --save-dev jest` to install jest locally.
+- `import {lowerCase, localeLowerCase} from "lower-case"; lowerCase("Word")` to use those functions in the javascript.
+- `JEST` is the javascript testing framework, use `expect(concatStrings("abc", "def")).toBe("abcdef")` to test the function behaviours of the functions.  
+- `red-green-refactoring-cycle` is the cycle for TDD.
+- `e2e testing; integration testing; unit testing` are the three types of the testing. There are existing frameworks for e2e etc.
+- `JEST` is developed by meta.
+- change `package.json` to update scripts to say test = "jest" to specify the testing framework.
+- Then `npm run test` to launch the test.
+- `test('returns true if blablabla', function() => {
+  expect(somefunction()).toBeDefined()
+  })` is used to write a proper unittest.
+- `mock and snapshot` are also useful in jest framework.
+
 
 ## Intro to javascript
 - `<script src="/path/to/scripts.js"></script>` to add path to many javascripts files that are in a separate folder.
