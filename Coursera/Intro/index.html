@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Little Lemon</title>
+    </head>
+    <body>
+        <h1>Our Menu</h1>
+        <h2>Falafel</h2>
+        <p>Chickpea, herbs and spices.</p>
+        <img src="falefel.jpg" alt="Falafel" width="200px" height="200px">
+        <h2>Pasta Salad</h2>
+        <p>Lettuce, vegetables and mozzare</p>
+        <img src="pasta.jpg" alt="Pasta Salad" width="200px" height="200px">
+        <style>
+            table, th, td {
+                border: 1px solid black; 
+                border-collapse: collapse; 
+            }
+        </style>
+        <table>
+            <tr>
+                <th>Dish</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Falafel</td>
+                <td>$10.00</td>
+            </tr>
+            <tr>
+                <td>Pasta Salad</td>
+                <td>$12.00</td>
+            </tr>
+        </table>
+        <form action="/registration" method="POST">
+            <label for="username">Username: </label><br>
+            <input type="text" name="username"><br>
+            <label for="password">Password:</label><br>
+            <input type="password" />
+            <input type="submit" />
+        </form>
+
+
+    </body>
+</html> 
