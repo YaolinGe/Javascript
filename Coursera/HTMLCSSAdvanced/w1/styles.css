@@ -29,3 +29,7 @@ h2 span {
     padding-top: 12px; 
     font-size: 0.75em;
 }
+
+input:focus:invalid {
+    border: 2px solid red;
+}

@@ -7,7 +7,8 @@
     - `<article></article>` can be used to show the article content.
     - `<section></section>` can be also used to show the article content.
     - `<header></header>` and `<footer></footer>` can be used inside `<article></article>` and `<section></section>`.
-- SEO
+
+## SEO
     - meta tags are used to include metadata to the webpage, usually inside `<head></head>`, which are invisible. Some common meta tags are: `name`, `description`, `keywords`, `robots`, `viewport`. There are more that are used for social media platforms. 
     - metadata includes `name` and `content` attributes.
     - `<meta name="author" content="Jane Wilson">`
@@ -36,3 +37,38 @@
     - `<meta name="format-detection" content="telephone=yes"/>` to indicate that telephone numbers should appear as hypertext links that can be clicked to initiate a phone call.
 - `<link rel="stylesheet" href="styles.css">` is often at the end of the head tag, and it is used to link the CSS file to the HTML file.
 - `<script src="script.js"></script>` is often at the end of the body tag, and it is used to link the JavaScript file to the HTML file.
+- Open Graph Protocol is used to specify the metadata for social media platforms.
+    - `<meta property="og:title" content="The Rock">` -> Must
+    - `<meta property="og:type" content="video.movie">` -> Must
+    - `<meta property="og:url" content="http://www.imdb.com/title/tt0117500/">` -> Must
+    - `<meta property="og:image" content="http://ia.media-imdb.com/images/rock.jpg">` -> Must
+    - `<meta property="og:description" content="A group of U.S. Marines, under command of...">`
+    - `<meta property="og:site_name" content="IMDb">`
+    - `<meta property="fb:admins" content="user_id">`
+    - `<meta property="og:locale" content="en_US">`
+    - `<meta property="og:locale:alternate" content="fr_FR">`
+
+## Form and validation 
+- client-side validation
+    - `<input type="email">` to specify that the input should be an email.
+    - `<input type="tel">` to specify that the input should be a telephone number.
+    - `<input type="url">` to specify that the input should be a URL.
+    - `<input type="number">` to specify that the input should be a number.
+    - `<input type="range">` to specify that the input should be a range.
+    - `<input type="date">` to specify that the input should be a date.
+    - `<input type="time">` to specify that the input should be a time.
+    - `<input type="color">` to specify that the input should be a color.
+    - `<input type="text" id="username" name="username" required>` to specify that the input should be required.
+    - Input types: 
+        - `<input type="button" value="Click me" onclick="msg()">` can also be replaced by `<button onclick="msg()"><img src="logo.png" alt="some text"></button>` to add extra contents inside the button. 
+        - `<input type="checkbox" name="vehicle1" value="Bike">` to specify that the input should be a checkbox.
+        - `<input type="radio">` to specify that the input should be a radio button.
+        - `<input type="file">` to specify that the input should be a file.
+        - `<input type="hidden">` to specify that the input should be hidden.
+        - `<input type="image">` to specify that the input should be an image.
+        - `<input type="password">` to specify that the input should be a password.
+        - `<input type="submit">` to specify that the input should be a submit button.
+    - `<input type="text" id="user" name="user" required minlength="3" maxlength="12">` can be used to specify the minimum and maximum length of the input.
+    - `input:invalid` and `input:valid` can be used to style the input based on the validation in CSS.
+    - `input:focus:invalid` and `input:focus:valid` can be used to style the input based on the validation in CSS.
+- server-side validation
