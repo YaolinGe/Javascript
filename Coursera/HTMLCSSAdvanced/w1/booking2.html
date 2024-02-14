@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Little Lemon</title>
+
+    <meta property="og:title" content="Our Menu">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="logo.png">
+    <meta property="og:url" content="https://littlelemon/">
+    <meta property="og:description"
+        content="Little Lemon is a family-owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Little Lemon">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <img src="logo.png">
+    </header>
+    <main>
+        <h1>Book a table</h1>
+        <form method="POST">
+            <div>
+                <label for="booking_date">Booking Date</label>
+                <input type="date" id="booking_date" name="booking_date">
+            </div>
+            <div>
+                <label for="booking_people">Booking People</label>
+                <input type="range" id="booking_people" name="booking_people" min="1" max="10" value="4" oninput="this.nextElementSibling.value=this.value">
+                <output>
+                    4
+                </output>
+            </div>
+            <div>
+                <label for="booking_location">Location</label>
+                <input id="booking_location" name="booking_location" list="locations">
+                <datalist id="locations">
+                    <option value="Downtown"></option>
+                    <option value="Uptown"></option>
+                </datalist>
+            </div>
+            <button type="submit">Book</button>
+        </form>
+        <form method="post">
+            <div>
+                <label for="booking_date">Booking Date</label>
+                <input type="date" id="booking_date" name="booking_date">
+            </div>
+            <div>
+                <label for="password_2">Password</label>
+                <input type="password" id="password_2" name="password_2">
+            </div>
+            <button type="submit">Get</button>
+        </form>
+        <div>
+            <fieldset> 
+                <legend>Personal Info</legend> 
+                <label for="fname">First name:</label><br> 
+                <input type="text" id="fname" name="fname" value="John"><br> 
+                <label for="lname">Last name:</label><br> 
+                <input type="text" id="lname" name="lname" value="Doe"><br> 
+              </fieldset> 
+              
+              <fieldset> 
+                <legend>Qualificaiton</legend> 
+                <label for="pdegree">Primary degree:</label><br> 
+                <input type="text" id="pdegree" name="degree" value="Masters"><br> 
+                <label for="fos">Last name:</label><br> 
+                <input type="text" id="fos" name="field" value="Psychology"><br> 
+              </fieldset> 
+        </div>
+        <div>
+            <optgroup>
+                <label for="booking_date">Booking Date</label>
+                <input type="date" id="booking_date" name="booking_date">
+            </optgroup>
+        </div>
+
+    </main>
+</body>
+
+</html>

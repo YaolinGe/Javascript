@@ -71,4 +71,10 @@
     - `<input type="text" id="user" name="user" required minlength="3" maxlength="12">` can be used to specify the minimum and maximum length of the input.
     - `input:invalid` and `input:valid` can be used to style the input based on the validation in CSS.
     - `input:focus:invalid` and `input:focus:valid` can be used to style the input based on the validation in CSS.
+- `<fieldset></fieldset>` can be used to group related elements in a form such as radio buttons, checkboxes, and text inputs.
+- when submitting form using `get` method
+    - url length limited to 2048 characters.
+    - url length limited by web server.
+    - data is visible in the url
+- `input[type=email]` and `input[type=number]` are used to select a specific type of input so that they can be updated in css.   
 - server-side validation
