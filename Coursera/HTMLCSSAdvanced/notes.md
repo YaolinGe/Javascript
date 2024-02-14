@@ -1,0 +1,38 @@
+# HTML & CSS advanced notes
+- hypertext: text contains other links.
+- markup: tags that are used to define the structure of a document.
+- semantic tags: tags that give meaning to the content.
+    - inside body tags, `<header></header>`, `<main></main>` and `<footer></footer>` are the main sections.
+    - `<nav></nav>` is used for navigation, usually in the header.
+    - `<article></article>` can be used to show the article content.
+    - `<section></section>` can be also used to show the article content.
+    - `<header></header>` and `<footer></footer>` can be used inside `<article></article>` and `<section></section>`.
+- SEO
+    - meta tags are used to include metadata to the webpage, usually inside `<head></head>`, which are invisible. Some common meta tags are: `name`, `description`, `keywords`, `robots`, `viewport`. There are more that are used for social media platforms. 
+    - metadata includes `name` and `content` attributes.
+    - `<meta name="author" content="Jane Wilson">`
+    - `<meta name="description" content="Jane's first web page">`
+    - `<meta name="keywords" content="HTML, CSS, JavaScript">`, not include this in the modern webpages as it is not used by search engines since they are usually used to spam.
+    - `<meta name="robots" content="index, follow">`, this is used to tell search engines to index and follow the page, and it has four attributes `index`, `noindex`, `follow`, `nofollow`.
+        - `index`: tells search engines to analyze the page.
+        - `noindex`: tells search engines not to analyze the page.
+        - `follow`: tells search engines to follow the links on the page.
+        - `nofollow`: tells search engines not to follow the links on the page.
+    - `<meta name="viewport" content="width=device-width, initial-scale=1.0">`, this is used to make the webpage responsive.
+    - `<meta name="language" content="english">` to specify the language of the webpage. 
+    - `<meta charset="UTF-8">` to specify the character encoding of the webpage.
+    - `<meta name="title"/>` to specify the title of the webpage.
+    - `<meta name="google"/>` tells google not to show the sitelinks search box. 
+    - `<meta name="googlebot" content="notranslate">` tells google not to translate the page.
+    - `<meta name="revised" content="Sunday, July 18th, 2010, 5:15pm">` to specify the date of the last revision of the webpage.
+    - `<meta name="rating" content="safe for kids">` to specify the expected audience for the page. 
+    - `<meta name="copyright" content="Copyright 2022">` specifies a Copyright. 
+    - `<meta http-equiv="refresh" content="30">` to instruct the browser to refresh the page every 30 seconds.
+    - `<meta http-equiv="content-type" content="text/html">` to specify the format of the document returned by the server. 
+    - `<meta http-equiv="default-style"/>` specifies the format of the styling document. 
+    - `<meta http-equiv="refresh"/>` specifies the duration of the page before it is considered stale. 
+    - `<meta http-equiv="Content-language"/>` to specify the language of the page. 
+    - `<meta http-equiv="Cache-Control" content="no-cache">` to instruct the browser not to cache the page.
+    - `<meta name="format-detection" content="telephone=yes"/>` to indicate that telephone numbers should appear as hypertext links that can be clicked to initiate a phone call.
+- `<link rel="stylesheet" href="styles.css">` is often at the end of the head tag, and it is used to link the CSS file to the HTML file.
+- `<script src="script.js"></script>` is often at the end of the body tag, and it is used to link the JavaScript file to the HTML file.
