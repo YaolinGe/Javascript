@@ -20,6 +20,16 @@
 - type `.label` to create a div with class `label` in the html file. 
 - `flex: 1;` is equivalent to `flex:1 1 0;`
 
+## Grid 
+- `gutter` is the space between the columns, or gaps. 
+- `repeat(3, 100px)` to repeat the column 3 times with 100px width.
+- `grid-template-columns` to define the columns. 
+- `grid-template-rows` to define the rows.
+- `grid-auto-rows: measurement unit` to define the rows automatically, but fixed values for all rows.
+- `grid-auto-columns` to define the columns automatically.
+- `grid-template-rows: measurement units | % units | repeat()` to define the rows. 
+- `grid-column: 1/ span 12;` for the item to span 12 columns starting from the first column.
+
 ## Units
 - Absolute values
     - `Q` is a unit of measurement that is equal to 1/40th of a centimeter.
