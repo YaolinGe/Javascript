@@ -1,0 +1,54 @@
+.box{
+    background-color: aquamarine;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 10px;
+    flex: 1 0 100px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 10px;
+    flex: 0 1 auto;
+    width: 35%;
+}
+
+.box3{
+    background-color: blanchedalmond;
+    align-self: center; 
+    flex: 1 1 auto;
+}
+
+.l1{
+    font-size: 1em;
+}
+
+.l2{
+    font-size: .9em;
+}
+
+.l3{
+    font-size: .9em;
+}
+
+.l4{
+    font-size: .9em;
+}
+
+.l5{
+    font-size: .9em;
+}
+
+.textBox{
+    overflow:auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    height: 100px;
+}
