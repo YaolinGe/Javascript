@@ -30,6 +30,26 @@
 - `grid-template-rows: measurement units | % units | repeat()` to define the rows. 
 - `grid-column: 1/ span 12;` for the item to span 12 columns starting from the first column.
 
+## CSS selector
+- `attribute selectors` 
+    - `[attr=value]{}`
+    - `[attr~=value]{}`
+    - `[attr$=value]{}`
+    - `[attr*=value]{}`
+    - `[attr|=value]{}`
+    - `[attr^=value]{}`
+    - `a[href*="meta"]{color: red;}` to select all the links with `meta` in the `href` attribute.
+- `nth-of-type` to select the nth element of the type.
+    - `element:nth-of-type(n) {property:value;}`
+- `nth-child` to select the nth child of the parent.
+    - `element:nth-child(n) {property:value;}`
+- `*` selector to select all the elements in the document.
+- `h1, p{color: blue; text-align: center;}` to apply the same style to multiple elements.
+- `#blog h1` are the `descendant selectors` to select the `h1` element inside the `blog` element.
+- `#blog > h1` are the `child selectors` to select the `h1` element that is a direct child of the `blog` element.
+- `h1 ~ p` are the `general sibling selectors` to select all the `p` elements that are siblings of the `h1` element.
+- `h1 + p` are the `adjacent sibling selectors` to select the `p` element that is immediately preceded by an `h1` element.
+
 ## Units
 - Absolute values
     - `Q` is a unit of measurement that is equal to 1/40th of a centimeter.
