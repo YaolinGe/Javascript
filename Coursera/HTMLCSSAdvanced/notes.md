@@ -78,3 +78,34 @@
     - data is visible in the url
 - `input[type=email]` and `input[type=number]` are used to select a specific type of input so that they can be updated in css.   
 - server-side validation
+
+## Media elements 
+- Video format supported by the HTML5 video tag: `mp4`, `webm`, `ogg`.
+- Audio format supported by the HTML5 audio tag: `mp3`, `wav`, `ogg`.
+- `<video><source src="dance.mp4" type="video/mp4"></video>` can be used to specify the source of the video.
+- `<video width="320" height="240" controls>` can be used to specify the width and height of the video and to add controls to the video.
+- `<video autoplay loop muted>` can be used to specify that the video should autoplay, loop, and be muted. 
+- `<audio><source src="music.ogg" type="audio/ogg"></audio>` to specify the source of the audio.
+- `<audio controls>` to add controls to the audio.
+- If the web browser does not support the video or audio format, the browser will use the first source that it supports.
+- `mp3` should use `audio/mpeg` as the type, as it is not supported by the HTML5 audio tag.
+- `<figure><figurecaption>Some caption</figurecaption></figure>` can be used to add caption to images. 
+- supported image formats are `jpg`, `jpeg`, `png`, `gif`, `svg`, `webp`, `bmp`, `ico`, `tiff`, `apng`, `avif`, `heif`, `pdf`.
+- `<iframe></iframe>` can be used to embed another webpage inside the current webpage.
+- `<iframe></iframe>` can be vulnerable and some additional attributes can be added to prevent camera or audio access, `<iframe src="https://www.example.com" allow="camera 'none'; microphone 'none';"><iframe>` to disable camera and audio input. 
+- sandbox attributes can be used to prevent the iframe from accessing the parent window, `<iframe src="https://www.example.com" sandbox="allow-scripts allow-same-origin"><iframe>` to allow scripts and same origin.
+- sandbox can also be used to prevent downloading files or popuping windows. 
+- if sandbox is empty value, then it is the same as an iframe. 
+- `<iframe sandbox="allow-downloads"></iframe>` to allow downloads.
+- `<iframe allow="fullscreen">` to allow the iframe to go fullscreen.
+- `<iframe allow="geolocation">` to allow the iframe to access the geolocation of the user.
+- `<iframe sandbox="allow-forms">` to allow the iframe to submit forms.
+- `<iframe sandbox="allow-modals">` to allow the iframe to open modals.
+- `<iframe sandbox="allow-popups">` to allow the iframe to open popups.
+- `<iframe src="index.html" srcdoc="<p>My inline html</p>"></iframe>` to rewrite the content of the `index.html`. 
+- `<iframe src="index.html" loading="lazy">` to load the iframe only when it is in the viewport.
+- `<iframe src="index.html" loading="eager">` to load the iframe as soon as possible.
+- `GIF`, `webP`, `2D Canvas` and `WebGL` are used to create animations.
+    - graphic interchange format (GIF) is a bitmap image format that supports animation.
+
+
