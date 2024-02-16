@@ -49,6 +49,44 @@
 - `#blog > h1` are the `child selectors` to select the `h1` element that is a direct child of the `blog` element.
 - `h1 ~ p` are the `general sibling selectors` to select all the `p` elements that are siblings of the `h1` element.
 - `h1 + p` are the `adjacent sibling selectors` to select the `p` element that is immediately preceded by an `h1` element.
+- `pseudo-classes` such as `:hover`, `:active`, `:focus` are the most important pesudo-classes. 
+- `:disabled` and `:enabled` are the pseudo-classes for the form elements, usually for buttons or input fields.
+- `:checked` and `:indeterminate` are the pseudo-classes for the form elements, usually for radio buttons or checkboxes.
+- `:valid` and `:invalid` are the pseudo-classes for the form elements, usually for input fields.
+- `li:nth-child(odd)` to select the odd elements in the list.
+- `li:nth-child(even)` to select the even elements in the list.
+- `li:first-of-type` to select the first element of the type.
+- `li:last-of-type` to select the last element of the type.
+- `::first-letter` are pseudo-elements which are different from pseudo-classes, it can be used to style the first letter of the element.
+- `::first-line` it can be used to style the first line of the element.
+- `::selection` can highlight user-selected text. 
+- `::marker` can be used to style the list item marker.
+- `::before` and `::after` can be used to insert content before or after the element.
+- `a:link` to select the unvisited links.
+- `a:visited` to select the visited links.
+- `LVHA` is the order of the pseudo-classes, `:link`, `:visited`, `:hover`, `:active`.
+- `.alpha.beta` to select the element with both classes `alpha` and `beta`.
+- `.alpha .beta` to select the element with class `beta` that
+- `p.alpha` to select all alpha class elements inside the `p` element.
+- `p, div` to select all `<p>` and `<div>` elements. 
+- `p div` to select all `<div>` elements inside the `<p>` element.
+- Descendant: `div p` to select all `<p>` elements inside the `<div>` element.
+- Child: `div > p` to select all `<p>` elements that are direct children of the `<div>` element.
+- Adjacent Sibling: `div + p` to select all `<p>` elements that are immediately preceded by a `<div>` element.
+- General Sibling: `div ~ p` to select all `<p>` elements that are siblings of a `<div>` element.
+- `[href]` to select all elements with the `href` attribute.
+- `[lang="fr"]` to select all elements with the `lang` attribute set to `fr`.
+- `[input~=hello]` to select all elements with the `input` attribute set to `hello`.
+
+## Effects 
+- `jquery` and `popmotion` are the libraries for the animation using javascript.
+- `transform` and `transition` are the css properties for the animation.
+- `@keyframes` to define the keyframe for the animation, but it needs to be used with the `animation` property.
+- `animation: myanimation 3s infinite ease-in; ` to apply the animation to the element.
+- `@keyframes myanimation { from{} to{}}` to define the keyframes for the animation.
+- `transform: rotate(45deg) scale(1.5) translate(45px)` can stack a series of animation effect together. 
+- `Preprocessor` such as `Sass` and `Scss` can be used to write the css in a more efficient way.
+- `@mixin some-rules {color: blue; font-size: 12px;}` to define a mixin and then `@include some-rules;` to include the mixin in the css file.
 
 ## Units
 - Absolute values
