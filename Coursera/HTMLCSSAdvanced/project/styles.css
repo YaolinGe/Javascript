@@ -1,0 +1,181 @@
+* {
+    background-color: bisque;
+}
+
+header {
+    display: flex; 
+    justify-content: center;
+    margin: 0 auto; 
+}
+
+img {
+    width: 20em;
+}
+
+ul {
+    list-style: none; 
+    display: flex;
+    background-color: darkslategrey;
+    justify-content: center;
+    width: 72vw;
+    height: auto;
+    padding: 0 3.5em;  
+    border-radius: 1em;
+    margin: 0 auto;
+    
+}
+
+li {
+    flex: 1;
+    background-color: darkslategrey;
+    text-align: center;
+}
+
+li > a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    background-color: darkslategrey;
+}
+
+a[href]:link {
+    color: white;
+}
+
+a[href]:visited {
+    color: purple;
+}
+
+a[href]:hover {
+    color: yellow;
+}
+
+a[href]:active {
+    color: red;
+}
+
+#promo {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin: 1em auto; 
+    border-radius: 1em;
+    background-image: url('images/promo.jpg');
+    background-size: cover;  
+}
+
+#promo:hover {
+    width: 82vw; 
+}
+
+#promo > h1 {
+    flex: 1; 
+    font-size: 2em; 
+    color: white; 
+    padding-left: 1em; 
+    background-color: transparent;
+}
+
+#promo > p {
+    flex: 1; 
+    font-size: 1.5em; 
+    color: white; 
+    padding-left: 1em; 
+    background-color: transparent;
+}
+
+#main {
+    display: flex; 
+    margin: 1em auto; 
+    width: 80vw;
+    border-radius: 1em; 
+    background-color: transparent; 
+}
+
+#main > article:first-of-type {
+    margin-right: 1em; 
+}
+
+#main > article:last-of-type {
+    margin-left: 1em; 
+}
+
+#main > article {
+    flex: 1; 
+    padding: 1em;
+    border-radius: 1em;
+    background-color: rgb(47, 79, 79);
+    display: grid; 
+    grid-template-rows: .5fr 2fr 2fr .1fr;
+}
+
+#main > article:hover {
+    background-color: rgb(47, 79, 79, .5);
+}
+
+.main_title {
+    color: white; 
+    font-size: 1em; 
+    padding-bottom: .1em;
+    text-align: center; 
+    background-color: transparent;
+}
+
+.main_content {
+    color: white; 
+    font-size: .8em; 
+    padding: 1em; 
+    background-color: transparent;
+}
+
+.image_container {
+    width: 100%; 
+    background-size: cover; 
+}
+
+.food1 {
+    background-image: url("images/food1.jpg"); 
+}
+
+.food2 {
+    background-image: url("images/food2.jpg"); 
+}
+
+.food3 {
+    background-image: url("images/food3.jpg"); 
+}
+
+button {
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 1em;
+    background-color: aliceblue;
+}
+
+button:hover {
+    background-color: lightblue;
+}
+
+footer {
+    display: flex; 
+    justify-content: space-between;
+    width: 80vw;
+    margin: 0 auto;  
+}
+
+#small_logo {
+    flex: 1; 
+    background-color: transparent;
+}
+
+#small_logo > img {
+    width: 2em; 
+}
+
+#copyright {
+    flex: 1; 
+    margin-top: 0; 
+    background-color: transparent;
+    text-align: right; 
+    border-top: .1em solid black;
+}

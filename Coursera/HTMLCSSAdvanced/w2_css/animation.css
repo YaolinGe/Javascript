@@ -1,11 +1,16 @@
 @keyframes animate {
     from {
         /* transform: translate3d(0, 0, 0);  */
-        transform: rotate(0deg); 
+        /* transform: rotate(0deg);  */
+        /* bottom: 100px;  */
+        top: 0px;
     }
     to {
         /* transform: translate3d(640px, 0, 0);  */
-        transform: rotate(60deg); 
+        /* transform: rotate(60deg);  */
+        bottom: 100px; 
+        /* top: 100px;  */
+
     }
 }
 
@@ -15,7 +20,8 @@
     /* border-radius: 50%;  */
     background-color: #62687f; 
     animation: animate 2s linear; 
-    animation-direction: alternate;
+    /* animation-direction: alternate; */
     animation-iteration-count: infinite;
     animation-fill-mode: both;
+    position: fixed; 
 }

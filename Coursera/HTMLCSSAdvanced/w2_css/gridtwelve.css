@@ -28,6 +28,7 @@
 .six{
     background-color: lightsteelblue;
     grid-column: 5/ span 6; 
+    /* position: fixed; */
 }
 
 .seven{
