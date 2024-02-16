@@ -88,6 +88,13 @@
 - `Preprocessor` such as `Sass` and `Scss` can be used to write the css in a more efficient way.
 - `@mixin some-rules {color: blue; font-size: 12px;}` to define a mixin and then `@include some-rules;` to include the mixin in the css file.
 
+## Error
+- `skill-based error`
+- `rule-based error`
+- `knowledge-based error` 
+    - `overspecifity` is the error that is caused by the overuse of the css selectors.
+    
+
 ## Units
 - Absolute values
     - `Q` is a unit of measurement that is equal to 1/40th of a centimeter.
