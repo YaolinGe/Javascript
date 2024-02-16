@@ -93,6 +93,11 @@
 - `rule-based error`
 - `knowledge-based error` 
     - `overspecifity` is the error that is caused by the overuse of the css selectors.
+- check compatibility of the css properties and values with the browser.
+- browser specific settings can be used to fix the compatibility issue.
+    - `Modernizer`
+    - `Reset.css`
+    - `Normalize.css`
     
 
 ## Units
