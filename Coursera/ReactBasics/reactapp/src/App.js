@@ -7,7 +7,12 @@ import './App.css';
 // import Promo from './components/Promo';
 // import MathRandomExample from './components/MathRandomExample';
 // import Expression from './w1/components/Expression';
-import Btn from './w2/components/Btn';
+// import Btn from './w2/components/Btn';
+// import ModeToggler from './w2/components/ModeToggler';
+// import GuessRandomNumber from './w2/components/GuessRandomNumber';
+// import Dog from './w2/components/Dog';
+// import {Hooks, TextInputWithFocusButton} from './w2/components/Hooks';
+import Main from './w2/components/Main';
 
 
 function App() {
@@ -15,7 +20,19 @@ function App() {
 
   return (
 
-    <Btn />
+    <Main msg="World" />
+
+    // <TextInputWithFocusButton />
+
+    // <Hooks />
+
+    // <Dog />
+
+    // <GuessRandomNumber />
+
+    // <ModeToggler />
+
+    // <Btn />
 
     // <Expression 
     //   toggleBoolean={!bool}

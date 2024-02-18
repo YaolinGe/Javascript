@@ -50,4 +50,11 @@
     - `animation events`
     - etc. 
 - `onClick` is a special attribute in JSX to handle click events.
+- `const handleClick = () => {console.log('Button clicked')}; <button onClick={handleClick}>Click me</button>` is an example of event handling using function expressions with arrow functions.
 
+## Data and State
+- `props` are outside the component and are fixed throughout the component's lifecycle.
+- `state` is inside the component and can be changed throughout the component's lifecycle.
+- `hooks` are used to add state to functional components.
+- `setSomeFunc` cannot be directly called to change the state. It can only be called inside a function.
+- `prop drilling` is the process of passing props from parent to child components.
