@@ -8,5 +8,6 @@
 - `virtual DOM` is a lightweight copy of the actual DOM.
 - `functional component` is a simple JavaScript function that returns a React element.
 - `import React from 'react'; import ReactDOM from 'react-dom/client'; import App from './App.js'; ReactDOM.createRoot(document.querySelector('#root')).render(<App />);` to render a component.
- - JSX is a syntax extension for JavaScript that looks similar to XML.
- - `npm init react-app .` to create a new React app.
+- JSX is a syntax extension for JavaScript that looks similar to XML.
+- `npm init react-app .` to create a new React app.
+- `npm install react-scripts --save` to 
