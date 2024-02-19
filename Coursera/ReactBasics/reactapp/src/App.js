@@ -12,7 +12,13 @@ import './App.css';
 // import GuessRandomNumber from './w2/components/GuessRandomNumber';
 // import Dog from './w2/components/Dog';
 // import {Hooks, TextInputWithFocusButton} from './w2/components/Hooks';
-import Main from './w2/components/Main';
+// import Main from './w2/components/Main';
+// import MealsProvider from './w2/components/MealsProvider';
+// import MealsList from './w2/components/MealsList';
+// import Counter from './w2/components/Counter';
+// import UseReducer from './w2/components/UseReducer';
+import FruitsParent from './w2/components/FruitsParent';
+
 
 
 function App() {
@@ -20,7 +26,18 @@ function App() {
 
   return (
 
-    <Main msg="World" />
+    <FruitsParent />
+
+    // <UseReducer />
+
+    // <div>
+    //   <MealsProvider>
+    //     <MealsList />
+    //     <Counter />
+    //   </MealsProvider>
+    // </div>
+
+    // <Main msg="World" />
 
     // <TextInputWithFocusButton />
 

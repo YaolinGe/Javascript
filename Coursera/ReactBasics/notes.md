@@ -59,4 +59,8 @@
 - `hooks` are used to add state to functional components.
 - `setSomeFunc` cannot be directly called to change the state. It can only be called inside a function.
 - `prop drilling` is the process of passing props from parent to child components.
-
+- `context provider` and `context consumer` are used to pass props to child components without prop drilling.
+- `stateful` and `stateless` components are used to manage state in a component.
+    - `stateful` has its own state. 
+    - `stateless` does not have its own state.
+    - Parent component are usually stateful and child components are usually stateless.
