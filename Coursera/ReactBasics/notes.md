@@ -64,3 +64,7 @@
     - `stateful` has its own state. 
     - `stateless` does not have its own state.
     - Parent component are usually stateful and child components are usually stateless.
+
+## Assets in React 
+- `<img src={require('./assets/images/cat.jpg')}>` to add images in React if I don't want to use `import` statement. 
+- `npm install react-player` to install the react-player package.

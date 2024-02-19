@@ -17,8 +17,14 @@ import './App.css';
 // import MealsList from './w2/components/MealsList';
 // import Counter from './w2/components/Counter';
 // import UseReducer from './w2/components/UseReducer';
-import FruitsParent from './w2/components/FruitsParent';
-
+// import FruitsParent from './w2/components/FruitsParent';
+// import WorkOrRest from './w3/WorkOrRest';
+// import Image from './w3/Image';
+// import ProfileImage from './w3/ProfileImage';
+// import Videos from './w3/Videos';
+// import Audios from './w3/Audios';
+import Project from './project/Project';
+import Review from './project/Review'; 
 
 
 function App() {
@@ -26,7 +32,21 @@ function App() {
 
   return (
 
-    <FruitsParent />
+    <Review />
+
+    // <Project />
+
+    // <Audios />
+
+    // <Videos />
+
+    // <ProfileImage />
+
+    // <Image />
+
+    // <WorkOrRest />
+
+    // <FruitsParent />
 
     // <UseReducer />
 
