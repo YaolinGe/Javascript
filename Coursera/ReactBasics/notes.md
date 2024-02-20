@@ -64,3 +64,9 @@
     - `stateful` has its own state. 
     - `stateless` does not have its own state.
     - Parent component are usually stateful and child components are usually stateless.
+
+## Linking and Routing 
+- `npm i react-router-dom` to install the react-router-dom package.
+- `import {BrowserRouter} from 'react-router-dom';` to use the BrowserRouter component.
+- `<BrowserRouter><App /></BrowserRouter>` need to wrap the app with the BrowserRouter component.
+

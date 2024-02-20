@@ -17,8 +17,11 @@ import './App.css';
 // import MealsList from './w2/components/MealsList';
 // import Counter from './w2/components/Counter';
 // import UseReducer from './w2/components/UseReducer';
-import FruitsParent from './w2/components/FruitsParent';
-
+// import FruitsParent from './w2/components/FruitsParent';
+// import RouterHomePage from './w3/RouterHomePage';
+// import Contact from './w3/Contact';
+// import NavContact from './w3/NavContact';
+import LogicalAndExample from './w3/LogicalAndExample';
 
 
 function App() {
@@ -26,7 +29,13 @@ function App() {
 
   return (
 
-    <FruitsParent />
+    <LogicalAndExample />
+
+    // <NavContact />
+    
+    // <RouterHomePage />
+
+    // <FruitsParent />
 
     // <UseReducer />
 
