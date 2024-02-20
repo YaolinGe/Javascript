@@ -21,7 +21,14 @@ import './App.css';
 // import RouterHomePage from './w3/RouterHomePage';
 // import Contact from './w3/Contact';
 // import NavContact from './w3/NavContact';
-import LogicalAndExample from './w3/LogicalAndExample';
+// import LogicalAndExample from './w3/LogicalAndExample';
+// import WorkOrRest from './w3/WorkOrRest';
+// import Image from './w3/Image';
+// import ProfileImage from './w3/ProfileImage';
+// import Videos from './w3/Videos';
+// import Audios from './w3/Audios';
+import Project from './project/Project';
+import Review from './project/Review'; 
 
 
 function App() {
@@ -29,11 +36,25 @@ function App() {
 
   return (
 
-    <LogicalAndExample />
+    // <LogicalAndExample />
 
     // <NavContact />
     
     // <RouterHomePage />
+
+    <Review />
+
+    // <Project />
+
+    // <Audios />
+
+    // <Videos />
+
+    // <ProfileImage />
+
+    // <Image />
+
+    // <WorkOrRest />
 
     // <FruitsParent />
 

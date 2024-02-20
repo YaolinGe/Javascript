@@ -70,3 +70,8 @@
 - `import {BrowserRouter} from 'react-router-dom';` to use the BrowserRouter component.
 - `<BrowserRouter><App /></BrowserRouter>` need to wrap the app with the BrowserRouter component.
 
+
+## Assets in React 
+- `<img src={require('./assets/images/cat.jpg')}>` to add images in React if I don't want to use `import` statement. 
+- `npm install react-player` to install the react-player package.
+- 
