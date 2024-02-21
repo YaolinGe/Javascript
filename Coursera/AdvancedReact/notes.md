@@ -32,12 +32,18 @@
 - `specialization` is used to pass a component
 - `<></>` is the same as `<React.Fragment></React.Fragment>` are essentially the same. 
 - `<div />`, `<div></div>`, `<div>{false}</div>`, `<div>{null}</div>`, `<div>{false}</div>`, `<div>{undefined}</div>`, `<div>{true}</div>` are all the same.
-- `React.cloneElement` is used to clone a component and pass new props to it.
-- `React.chidlren` is used to access the children of a component.
+- `React.cloneElement` is used to clone a component and pass new props to it, it is employed on the element level, meaning that it is used to operate on a single element, not JSX syntax, but the actual element.
+- `React.cloneElement(element, [props])` to clone a component and pass new props to it.
+- `React.Children.map(children, callback)` is used to map over the children of a component and apply a callback function to each child.
 
 ## Reusing behaviour 
-- `HOC` is a function that takes a component and returns a new component.
-- `render props pattern` is a pattern that uses a prop to pass a function to a component.
+- `cross cutting concerns` can be employed to reuse behaviour across multiple components.
+    - `custom hook`can be used to address that issue, but it is not a good solution for cross cutting concerns.
+        - needs to alternate each individual component, and thus leading to stateful component. 
+    - `HOC` can be used to address this issue as well, HOC stands for higher order component. 
+        - `const EnhancedComponent = higherOrderComponent(WrappedComponent)` is used to wrap a component with a higher order component.
+        - `const withSubscription = (WrappedComponent, selectData) => {return (props) => {<WrappedComponent data={data} {...props}>}}` is used to create a higher order component.
+    - `Render props pattern` can be used to address this issue as well, it is a pattern that uses a prop to pass a function to a component.
 
 ## Testing 
 - avoid implementtaion details in tests

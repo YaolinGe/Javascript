@@ -29,7 +29,7 @@ export default function App() {
             <Button type="primary" onClick={() => alert("Signing up!")}>
                 Sign up
             </Button>
-            <LoginButton type="secondary" onClick={()=>alert("Signing up!")}>
+            <LoginButton type="secondary" onClick={()=>alert("Signing up!")} >
                 Login
             </LoginButton>
         </div>
