@@ -25,3 +25,21 @@
 - `useState` is suitable for less complex data, while `useReducer` is suitable for more complex data.
 - `console.log` should be invoked inside `useEffect` to avoid infinite loops.
 
+
+## JSX Deep Dive 
+- `element` are used to produce a virtual DOM, which is just a javascript representation of the actual DOM. 
+- `containment` is used to pass a component as a prop to another component.
+- `specialization` is used to pass a component
+- `<></>` is the same as `<React.Fragment></React.Fragment>` are essentially the same. 
+- `<div />`, `<div></div>`, `<div>{false}</div>`, `<div>{null}</div>`, `<div>{false}</div>`, `<div>{undefined}</div>`, `<div>{true}</div>` are all the same.
+- `React.cloneElement` is used to clone a component and pass new props to it.
+- `React.chidlren` is used to access the children of a component.
+
+## Reusing behaviour 
+- `HOC` is a function that takes a component and returns a new component.
+- `render props pattern` is a pattern that uses a prop to pass a function to a component.
+
+## Testing 
+- avoid implementtaion details in tests
+- test work with DOM nodes 
+- resemble software usage

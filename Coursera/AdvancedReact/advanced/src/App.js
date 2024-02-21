@@ -18,13 +18,35 @@ import './App.css';
 // import UseReducer from './w2/UseReducer';
 // import UseRef from './w2/UseRef';
 // import Counter from './w2/Counter';
-import UsePrevious from './w2/lab/UsePrevious';
+// import UsePrevious from './w2/lab/UsePrevious';
+// import User from './w3/User';
+// import Children from './w3/Children';
+// import RadioGroup from './w3/Lab/RadioGroup';
+// import Login from './w3/Login';
+// import HOC from './w3/HOC';
+// import RenderProps from './w3/RenderProps';
+// import RenderPropLab from './w3/Lab/RenderPropLab';
+import Feedback from './w4/Feedback';
 
 
 function App() {
   return (
 
-    <UsePrevious />
+    <Feedback />
+
+    // <RenderPropLab />
+
+    // <HOC />
+
+    // <Login />
+
+    // <RadioGroup />
+
+    // <Children />
+
+    // <User />
+
+    // <UsePrevious />
 
     // <Counter />
 
