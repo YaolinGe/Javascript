@@ -20,3 +20,8 @@
 - only call hooks from the top level of the function component, not from nested functions or loops.
 - only call hooks from react functions, not from regular javascript functions.
 - `fetch` is used to make a request to an API.
+- `API` needs to have a type safe interface, so that the data that is being returned can be type checked.
+- `useReducer` is a more advanced version of `useState` as it provides more control over the state of the application.
+- `useState` is suitable for less complex data, while `useReducer` is suitable for more complex data.
+- `console.log` should be invoked inside `useEffect` to avoid infinite loops.
+

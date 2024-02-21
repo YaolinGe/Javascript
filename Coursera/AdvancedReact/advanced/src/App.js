@@ -13,13 +13,28 @@ import './App.css';
 // import GiftCardPage from './w2/lab/GiftCardPage';
 // import { UseEffectHook } from './w2/UseEffectHook';
 // import BTC from './w2/BTC';
-import { Fetch } from './w2/Fetch';
+// import { Fetch } from './w2/Fetch';
+// import RandomUser from './w2/lab/RandomUser';
+// import UseReducer from './w2/UseReducer';
+// import UseRef from './w2/UseRef';
+// import Counter from './w2/Counter';
+import UsePrevious from './w2/lab/UsePrevious';
 
 
 function App() {
   return (
 
-    <Fetch />
+    <UsePrevious />
+
+    // <Counter />
+
+    // <UseRef />
+
+    // <UseReducer />
+
+    // <RandomUser />
+
+    // <Fetch />
 
     // <BTC />
 
