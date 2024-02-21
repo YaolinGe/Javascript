@@ -12,13 +12,16 @@ import './App.css';
 // import GoalFormApp from './w2/GoalFormApp';
 // import GiftCardPage from './w2/lab/GiftCardPage';
 // import { UseEffectHook } from './w2/UseEffectHook';
-import BTC from './w2/BTC';
+// import BTC from './w2/BTC';
+import { Fetch } from './w2/Fetch';
 
 
 function App() {
   return (
 
-    <BTC />
+    <Fetch />
+
+    // <BTC />
 
     // <UseEffectHook />
 
