@@ -3,6 +3,7 @@
 ## Rendering lists in react 
 - `map()` function is used to render lists in react.
 - `key` prop is used to uniquely identify each element in the list, they are unique to the list and not the entire application.
+    - use stable identifier and also unique identifier for the key prop.
 - `index` can be used as `key`, but it is not recommended as it can cause performance issues.
 - `controlled component` is a component that renders a list and also controls the data that is being rendered.
 - `uncontrolled component` is a component that renders a list but does not control the data that is being rendered.
@@ -27,6 +28,7 @@
 
 
 ## JSX Deep Dive 
+- `javascript code` inside `{}` is executed right away during the rendering process. 
 - `element` are used to produce a virtual DOM, which is just a javascript representation of the actual DOM. 
 - `containment` is used to pass a component as a prop to another component.
 - `specialization` is used to pass a component
@@ -49,3 +51,6 @@
 - avoid implementtaion details in tests
 - test work with DOM nodes 
 - resemble software usage
+- `screen` utility object that finds the elements in the same way as if a user would find them, ensuring tests mimic real user interactions closely. 
+- `<button disabled>` and `<button disabled=true>` are the same, they will render a button with the disabled attribute.
+

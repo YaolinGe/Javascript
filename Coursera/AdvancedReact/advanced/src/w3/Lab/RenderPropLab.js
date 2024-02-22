@@ -18,9 +18,9 @@ const MousePosition = ({ render }) => {
     window.addEventListener("mousemove", handleMousePositionChange);
 
     return () => {
-      window.removeEventListener("mousemove", handleMousePositionChange);
+      window.removeEventListener("mousemove", handleMousePositionChange);  // -> this is called when the component is unmounted, i.e. when the component is removed from the DOM
     };
-  }, []);
+  }, []);  // -> empty array means that the effect will only run once, when the component is mounted
 
   return render({ mousePosition });
 };

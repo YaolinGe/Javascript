@@ -3,7 +3,7 @@ import { ThemeProvider, useTheme } from "./ThemeContext";
 import Switch from "./Switch";
 
 const Title = ({ children }) => {
-  const { theme } = useTheme();
+  const { theme } = useTheme();  // here it is using destructuring to get the theme from the useTheme hook, it actually has two properties, theme and toggleTheme, but only theme is interested here. 
   return (
     <h2
       style={{

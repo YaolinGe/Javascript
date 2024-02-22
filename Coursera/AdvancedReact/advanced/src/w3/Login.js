@@ -24,7 +24,7 @@ const LoginButton = ({ type, children, ...buttonProps }) => {
 export default function App() {
     return (
         <div className="App">
-            <div>{(() => true)()}</div>
+            <div>{(() => true)()}</div>  
             <header className="Header">Little Lemon Restaurant 🍕</header>
             <Button type="primary" onClick={() => alert("Signing up!")}>
                 Sign up

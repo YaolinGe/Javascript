@@ -100,17 +100,20 @@ function Form() {
               Password <sup>*</sup>
             </label>
             <input
+              type="password"
               placeholder="Password"
               value={password.value}
               onChange={(e) => {
                 setPassword({ ...password, value: e.target.value });
                 console.log(password.value);
               }}
-              onBlur={()=>{
-                setPassword({...password, isTouched: true})
+              onBlur={() => {
+                setPassword({ ...password, isTouched: true });
               }}
             />
-              {password.isTouched && password.value.length < 8 ? PasswordErrorMessage() : null}
+            {password.isTouched && password.value.length < 8
+              ? PasswordErrorMessage()
+              : null}
           </div>
           <div className="Field">
             <label>
