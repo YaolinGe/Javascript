@@ -1,1 +1,143 @@
 # UI / UX notes 
+- `Figma` is a web-based (with a companion desktop app enabled by Electron) UI design and prototyping tool. It is primarily used for creating designs, prototypes, and code generation.
+- `UX` 
+    - what are the customers' needs? 
+    - what is stopping them from achieving their goals 
+    - how intuitive is the website to use? 
+    - can customers get from one section to another quickly and efficiently? 
+- `UI` -> how user sees
+    - type, color, buttons, shapes, icons and images
+    - grouping and assembling 
+    - help users achieve their goals efficiently and quickly
+    - adhere to the brand's guidelines
+
+## UX 
+- give feedback to the user
+- process is iterative
+    - observe task
+    - identify problems
+    - brainstorm solutions
+    - prototype
+    - test
+- usability: 
+    - `learnability`: how easy is it for users to accomplish basic tasks the first time they encounter the design?
+    - `efficiency`: once users have learned the design, how quickly can they perform tasks?
+    - `memorability`: when users return to the design after a period of not using it, how easily can they reestablish proficiency?
+    - `errors`: how many errors do users make, how severe are these errors, and how easily can they recover from the errors?
+    - `satisfaction`: how pleasant is it to use the design?
+- goals
+    - desirable: enjoyable, fun, and engaging, relaxing, satisfying, efficient, engaged, motiviated, stimulated, intuitive
+    - undesirable: frustrating, boring, confusing, stressful, tiring, annoying, overwhelming, distracting, disengaged, demotivated, disinterested, unstimulated, unintuitive
+- Empathy tools: artifacts in the UX process 
+    - `user personas`: fictional characters created to represent the different user types that might use a site, brand, or product in a similar way.
+        - `conducting customer interviews`: 
+        - `making assumptions`: 
+        - `use web analytics`: 
+        - `create a customer persona group` 
+    - `user stories`: a brief statement that describes the user and their need or goal. 
+        - `As a [type of user], I want [some goal] so that [some reason].`
+    - `scenarios`: a narrative that describes a specific user's interaction with a product or service.
+        - `narrative scenarios`: a story that describes a user's interaction with a product or service.
+        - `storyboards`: a series of illustrations that show the user's interaction with a product or service.
+        - `scenario maps`: a visual representation of a user's interaction with a product or service.
+    - `storyboards`: a series of illustrations that show the user's interaction with a product or service.
+- UX process 
+    - `empathize`: understand the user's needs and feelings
+    - `define`: define the problem
+    - `ideate`: brainstorm solutions, wireframes, prototypes
+    - `prototype`: create a prototype
+    - `test`: test the prototype
+
+
+## UI 
+- design types: 
+    - `service design`: the activity of planning and organizing people, infrastructure, communication, and material components of a service in order to improve its quality and the interaction between the service provider and its customers.
+    - `customer experience design`: the practice of designing products and services with the focus on the quality and thoughtfulness of the user experience.
+    - `user experience design`: the process of enhancing user satisfaction with a product by improving the usability, accessibility, and pleasure provided in the interaction with the product.
+    - `user interface design`: the design of user interfaces for machines and software, such as computers, home appliances, mobile devices, and other electronic devices, with the focus on maximizing usability and the user experience.
+
+## User-centered design 
+- `user interview` -> to get user experiences 
+- `empathy map` -> to understand the user's needs and feelings
+    - `what does the user think and feel?`
+    - says | thinks
+    - does | feels
+- example: 
+    - `persona: Tilly`
+    - `goal: eat favorite meal`
+    - `want: order for delivery`
+    - `needs: access site, customize order`
+    - `resolution: place and track order`
+- make a persona: 
+    - `name`: some name to represent realistically 
+    - `image`: a picture of the persona
+    - `descriptions`: age, gender, job, technical ability, make it as realistic as possible. 
+    - `quote`: a quote that represents the persona's feelings
+    - `bio`: a brief bio of the persona, where do they live, what do in spare time, details to make them unique, what they like doing etc. 
+    - `core needs`: e.g., tilly is busy who needs time to organize her life around her work. 
+    - `frustrations`: pain points, 
+
+## Evaluate design 
+- `functionality` should always be priotized than `aesthetics`
+- `Dieter Rams` 10 principles of good design
+    - `innovative`: the possibilities for progress are not, by any means, exhausted. Technological development is always offering new opportunities for innovative design. But innovative design always develops in tandem with innovative technology, and can never be an end in itself.
+    - `useful`: the design is not just about the product, but also about the user. It must be useful to the user. 
+    - `aesthetic`: the design must be aesthetic, but it must not be the primary goal. 
+    - `understandable`: the design must be understandable. It must not be confusing. 
+    - `unobtrusive`: the design must be unobtrusive. 
+    - `honest`: the design must be honest. 
+    - `long-lasting`: the design must be long-lasting. 
+    - `thorough`: the design must be thorough. 
+    - `environmentally friendly`: the design must be environmentally friendly. 
+    - `minimal`: the design must be minimal.
+- `Jakob Nielsen` principles -> usability heuristics -> 10 usability principles to improve UI design
+    - `visibility of system status`: the system should always keep users informed about what is going on, through appropriate feedback within reasonable time.
+    - `match between system and the real world`: the system should speak the users' language, with words, phrases and concepts familiar to the user, rather than system-oriented terms.
+    - `user control and freedom`: users often choose system functions by mistake and will need a clearly marked "emergency exit" to leave the unwanted state without having to go through an extended dialogue.
+    - `consistency and standards`: users should not have to wonder whether different words, situations, or actions mean the same thing.
+    - `error prevention`: even better than good error messages is a careful design which prevents a problem from occurring in the first place.
+    - `recognition rather than recall`: minimize the user's memory load by making objects, actions, and options visible. The user should not have to remember information from one part of the dialogue to another.
+    - `flexibility and efficiency of use`: accelerators -- unseen by the novice user -- may often speed up the interaction for the expert user such that the system can cater to both inexperienced and experienced users.
+    - `aesthetic and minimalist design`: dialogues should not contain information which is irrelevant or rarely needed. Every extra unit of information in a dialogue competes with the relevant units of information and diminishes their relative visibility.
+    - `help users recognize, diagnose, and recover from errors`: error messages should be expressed in plain language (no codes), precisely indicate the problem, and constructively suggest a solution.
+    - `help and documentation`: even though it is better if the system can be used without documentation, it may be necessary to provide help and documentation. Any such information should be easy to search, focused on the user's task, list concrete steps to be carried out, and not be too large.
+- `Schneiderman evaluation` 8 golden rules of design 
+    - `strive for consistency`: consistent sequences of actions should be required in similar situations; identical terminology should be used in prompts, menus, and help screens; and consistent commands should be employed throughout.
+    - `enable frequent users to use shortcuts`: accelerators -- unseen by the novice user -- may often speed up the interaction for the expert user such that the system can cater to both inexperienced and experienced users.
+    - `offer informative feedback`: for every operator action, there should be some system feedback. For frequent and minor actions, the response can be modest, while for infrequent and major actions, the response should be more substantial.
+    - `design dialog to yield closure`: sequences of actions should be organized into groups with a beginning, middle, and end. The informative feedback at the completion of a group of actions gives the operators the satisfaction of accomplishment, a sense of relief, the signal to drop contingency plans, and the chance to shift attention to other tasks.
+    - `offer simple error handling`: as much as possible, design the system so the user cannot make a serious error. If an error is made, the system should be able to detect the error and offer simple, comprehensible mechanisms for handling the error.
+    - `permit easy reversal of actions`: this feature relieves anxiety, since the user knows that errors can be undone; it thus encourages exploration of unfamiliar options.
+    - `support internal locus of control`: experienced operators strongly desire the sense that they are in charge of the system and that the system responds to their actions. Design the system to make users the initiators of actions rather than the responders.
+    - `reduce short-term memory load`: the limitation of human information processing in short-term memory requires that displays be kept simple, multiple page displays be consolidated, window-motion frequency be reduced, and sufficient training time be allotted for a user to integrate the display into their cognitive task.
+- `Accessibility design` 
+    - `sufficient color contrast between foreground and background`
+    - `ensure that interactive elements are easily identifiable`
+    - `ensure that form elements include clearly associated label`
+    - `make navigation options clear and consistent`
+    - `provide easily identifiable feedback`
+    - `use headings and spacing to group related content`
+    - `design for different viewport sizes`
+    - `provide controls for content that starts automatically`
+- `Best practice principles`
+    - Form design: 
+        - `clearly defined forms` 
+        - `implement best practices`
+        - `use clear layout`
+        - `aligning business and user goals`
+- `menu icons in navigation`, `font awesome` and `material design` are two popular libraries for icons.
+    - `hamburger menu` 
+    - `kebab menu`
+    - `meatball menu`
+    - `bento menu`
+    - `doner menu`
+- `navigation best practice`
+    - `content strategy`: present the product in a meaningful way to the user, align with UX and business goals
+        - `prioritization`: prioritize the content based on the user's needs and business goals
+        - `organization`: organize the content in a way that makes sense to the user
+        - `presentation`: present the content in a way that is easy to understand and navigate
+        - `specifications`: define the content and how it will be presented
+    - `information architecture`
+        - 
+
+
