@@ -138,6 +138,13 @@
         - `presentation`: present the content in a way that is easy to understand and navigate
         - `specifications`: define the content and how it will be presented
     - `information architecture`
-        - 
+
+
+## Figma 
+- `frame`: a container for a design
+    - one can use frame creator to create a frame or multiple frames
+- `layer`: a single element in a design
+- `group`: a collection of layers
+
 
 
