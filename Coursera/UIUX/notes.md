@@ -145,6 +145,7 @@
     - one can use frame creator to create a frame or multiple frames
 - `layer`: a single element in a design
 - `group`: a collection of layers
+- `typeface`: a collection of fonts, also called a font family
 
 
 
