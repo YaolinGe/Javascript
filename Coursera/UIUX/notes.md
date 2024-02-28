@@ -168,6 +168,47 @@
             - `A/B testing`: a method of comparing two versions of a webpage or app against each other to determine which one performs better
             - `multivariate testing`: a method of comparing multiple variables to determine which combination performs the best
             - `split testing`: a method of comparing two versions of a webpage or app against each other to determine which one performs better
+- `high fidelity design`: a design that is very detailed and looks like the final product
+    - `line`
+        - `color`
+        - `size`
+        - `shape`
+        - `direction`
+        - `seen or not`
+        - `directing the eye`
+        - `thickness`: bold lines are used to draw attention to important elements, while thin lines are used to draw attention to less important elements
+    - `text`
+        - `web typography`
+            - `typeface`
+            - `type size`
+            - `color`
+            - `line height`
+            - `letter shapes`
+        - `print typograph`
+    - `color`
+        - main functions: 
+            - `set the mood`
+            - `brand identification`
+            - `evoking emotions`
+            - `highlighting important elements`
+        - types: 
+            - `RGB`: red, green, blue
+            - `CMYK`
+        - qualities: 
+            - `hue`: the color itself, how closely it resembles a primary color (red, orange, yellow, green, blue, indigo, violet)
+            - `saturation`: the intensity of the color
+            - `tint`: the mixture of a color with white
+            - `shade`: the mixture of a color with black
+            - `tone`: the mixture of a color with gray
+            - `brightness`: the lightness or darkness of the color
+    - `shape`
+        - `geometric`: circles, squares, triangles, rectangles, and other shapes that are defined by precise mathematical formulas
+        - `organic`: shapes that are freeform and irregular, such as those found in nature
+        - `abstract`: shapes that are not easily recognizable, such as those found in art
+    - `graphic elements`: images, icons, and illustrations
+    - `space`
+        - `positive space`: the space that is occupied by the main subject of the design
+        - `negative space`: the space that surrounds the main subject of the design
 
 
 
