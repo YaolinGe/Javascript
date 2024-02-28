@@ -146,6 +146,28 @@
 - `layer`: a single element in a design
 - `group`: a collection of layers
 - `typeface`: a collection of fonts, also called a font family
+- `responsive design`: 
+    - `12 columns` -> desktop
+    - `8 columns` -> tablet
+    - `4 columns` -> mobile
+    - `ctrl + shift + 4` to toggle on/off the layout grid after it is created
+    - `nudge distance` -> 8px for the big one, i.e. triggered by using shift + arrow key. 
+    - `text, stroke` will not be scaled properly unless the scale tool is selected. 
+- `wireframe`: a visual guide that represents the skeletal framework of a website. Wireframes are created for the purpose of arranging elements to best accomplish a particular purpose.
+    - `mobile first design`: as there are moany users that access the app from mobile. 
+    - `usability testing`: 
+        - `facilitator`: the person who is conducting the test
+        - `participant`: the person who is testing the app
+        - `observer`: the person who is observing the test
+        - `qualitive testing`: 
+            - `think aloud protocol`: the participant is asked to verbalize their thoughts as they are using the app
+            - `task-based testing`: the participant is asked to complete a series of tasks using the app
+            - `moderated testing`: the facilitator is present and can ask questions and provide guidance
+            - `unmoderated testing`: the participant is given a set of tasks to complete and the facilitator is not present
+        - `quantitative testing`:
+            - `A/B testing`: a method of comparing two versions of a webpage or app against each other to determine which one performs better
+            - `multivariate testing`: a method of comparing multiple variables to determine which combination performs the best
+            - `split testing`: a method of comparing two versions of a webpage or app against each other to determine which one performs better
 
 
 
