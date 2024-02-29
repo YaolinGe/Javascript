@@ -209,6 +209,35 @@
     - `space`
         - `positive space`: the space that is occupied by the main subject of the design
         - `negative space`: the space that surrounds the main subject of the design
-
-
+- `assets` next to the layers column, both are on the left side can be used to select which layer to work on. 
+- `design systems`
+    - `typography`
+    - `colors`
+    - `icons`
+    - `layouts`
+    - `grids`
+    - `coding standards`
+    - `naming conventions`
+    - `tone of voice`
+    - `style guide`
+    - `documentation`
+- `UI kit`
+    - `set of buttons`
+    - `menu items`
+    - `components`
+- `atomic design`
+    - `atoms`: the basic building blocks of a design, such as buttons, input fields, and icons
+    - `molecules`: combinations of atoms that form a more complex element, such as a form or a card
+    - `organisms`: combinations of molecules that form a more complex element, such as a header or a footer
+    - `templates`: combinations of organisms that form a more complex element, such as a page layout
+    - `pages`: combinations of templates that form a more complex element, such as a complete website or app
+- It is good to have a single source of truth for the design, i.e. it can be a figma file that is shared with the team.
+- `interactive prototypes` is useful to test. 
+- `micro-animations`: small animations that are used to enhance the user experience
+- `micro-interactions`: small interactions that are used to enhance the user experience
+    - `trigger`: the event that starts the interaction
+    - `rules`: the conditions that determine how the interaction will behave
+    - `feedback`: the response that the user receives from the interaction
+    - `loops and modes`: the different states that the interaction can be in
+- `moodboard`: a collection of images, text, and other elements that are used to convey the mood or feeling of a design
 
