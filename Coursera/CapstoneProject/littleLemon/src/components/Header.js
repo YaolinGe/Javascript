@@ -1,8 +1,8 @@
 export default function Header() {
     return (
         <header>
-            <h1>Welcome to Little Lemon</h1>
-            <p>Little Lemon is a small, family-owned business that specializes in homemade lemonade. We use only the freshest ingredients, and we have a variety of flavors to choose from. Come visit us and see what we have to offer!</p>
+            <meta name="description" content="Get all your sports fishing equipment at One Place Fishing. Open Monday to Friday, 9 to 5, in the Great Lake area."/>
+            <h1>One Place Fishing</h1>
         </header>
     );
 }

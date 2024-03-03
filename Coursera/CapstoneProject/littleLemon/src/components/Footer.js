@@ -1,7 +1,7 @@
 export default function Footer() {
     return (
         <footer>
-        <p>&copy; 2021 Little Lemon</p>
+        Here comes the footer
         </footer>
     );
     }
