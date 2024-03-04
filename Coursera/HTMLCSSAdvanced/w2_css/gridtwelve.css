@@ -12,7 +12,7 @@
 
 .twelve{
     background-color: lightseagreen;
-    grid-column: 1/ span 12;
+    grid-column: 1/ span12;
 }
 
 .eight{

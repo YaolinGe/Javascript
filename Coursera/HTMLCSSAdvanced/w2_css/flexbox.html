@@ -1,38 +1,64 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="flexbox.css">
-    </head>
-    <body>
-        <div class="flex-container">
-          <div class="box box1">  One..</div>
-          <div class="box box2">  Two..</div>
-          <div class="box box3">  Three..</div>
-          <div class="box box4">  Four..</div>
-          <div class="box box5">  Five..</div>
-          <div class="box box6">  Six..</div>
-          <div class="box box7">  Seven..</div>
-        </div>
-        <div class="l1">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="flexbox.css">
+</head>
+
+<body>
+    <div class="flex-container">
+        <div class="box box1"> One..</div>
+        <div class="box box2"> Two..</div>
+        <div class="box box3"> Three..</div>
+        <div class="box box4"> Four..</div>
+        <div class="box box5"> Five..</div>
+        <div class="box box6"> Six..</div>
+        <div class="box box7"> Seven..</div>
+    </div>
+    <div class="l1">
+        <p>Text</p>
+        <div class="l2">
             <p>Text</p>
-            <div class="l2">
+            <div class="l3">
                 <p>Text</p>
-                <div class="l3">
+                <div class="l4">
                     <p>Text</p>
-                    <div class="l4">
+                    <div class="l5">
                         <p>Text</p>
-                        <div class="l5">
-                            <p>Text</p>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="textBox">
-            <!-- Generate a random paragraph using <p> and it has to be 500 words long -->
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? 
-            </p>
-        </div>
-      </body>
+    </div>
+    <div class="textBox">
+        <!-- Generate a random paragraph using <p> and it has to be 500 words long -->
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
+            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+            consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem
+            ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut
+            labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem
+            ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure
+            reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum
+            fugiat quo voluptas nulla pariatur?
+        </p>
+    </div>
+    <p>The width of content is 500px; the flex-basis of the flex items is 120px.</p>
+    <p>A, B, C have flex-shrink:1 set. D and E have flex-shrink:2 set</p>
+    <p>The width of D and E is less than the others.</p>
+    <div id="content">
+        <div class="box" style="background-color:red;">A</div>
+        <div class="box" style="background-color:lightblue;">B</div>
+        <div class="box" style="background-color:yellow;">C</div>
+        <div class="box1" style="background-color:brown;">D</div>
+        <div class="box1" style="background-color:lightgreen;">E</div>
+    </div>
+
+</body>
+
 </html>

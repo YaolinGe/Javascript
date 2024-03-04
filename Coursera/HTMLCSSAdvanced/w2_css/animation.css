@@ -1,14 +1,14 @@
 @keyframes animate {
     from {
-        /* transform: translate3d(0, 0, 0);  */
+        transform: translate3d(0, 0, 0); 
         /* transform: rotate(0deg);  */
         /* bottom: 100px;  */
-        top: 0px;
+        /* top: 0px; */
     }
     to {
-        /* transform: translate3d(640px, 0, 0);  */
+        transform: translate3d(640px, 0, 0); 
         /* transform: rotate(60deg);  */
-        bottom: 100px; 
+        /* bottom: 100px;  */
         /* top: 100px;  */
 
     }

@@ -1,5 +1,13 @@
 # React Basics notes
 
+## What to do when old packages get outdated, and got error when launching the app?
+- `rm node_modules` to remove the node_modules folder.
+- `rm package_lock.json` to remove the package_lock.json file.
+- `npm install -g npm-check-updates` to install the npm-check-updates package globally.
+- `ncu -u` to update the package.json file.
+- `npm install` to install the updated packages.
+- `npm start` then to start the development server.
+
 ## Module imports and exports 
 - `export default function addTwoNumbers(a, b) { return a + b; }` to perform a default export. 
 - `export {addTwo, addThree};` to perform a named export for multiple functions.
