@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap');
+
+#about {
+    display: grid;
+    grid-template-columns: repeat(2, 30vw);
+    grid-template-rows: auto;
+    grid-gap: 5vw; 
+    justify-content: center;
+    margin: 10vh 0;
+    background-color: #d9d9d9;
+}
+
+.about-description {
+    display: flex;
+    flex-direction: column; 
+}
+
+.about-title {
+    font-family: 'Markazi Text', sans-serif;
+    font-size: 5rem; 
+    font-weight: 500;
+    padding: 0; 
+    margin: 0; 
+}
+
+.about-subtitle {
+    font-family: 'Markazi Text', sans-serif;
+    font-size: 2rem; 
+    font-weight: 300;
+    color: #333333; 
+    padding: 0; 
+    margin: 0; 
+}
+
+.about-text {
+    font-family: 'Karla', sans-serif;
+    font-size: 1rem; 
+    font-weight: 500;
+}
+
+.about-images {
+    position: relative; 
+}
+
+.about-image {
+    position: absolute; 
+    width: 20vw; 
+}
+
+.img1 {
+    top: 30%;
+    left: 0; 
+    z-index: 1; 
+}
+
+.img2 {
+    top: 0; 
+    left: 35%; 
+    z-index: 0; 
+}
+
+
+
