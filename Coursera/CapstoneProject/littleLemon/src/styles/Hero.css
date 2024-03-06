@@ -37,6 +37,7 @@
     font-size: 1.5vh; 
     font-weight: lighter;
     margin-right: 5vw; 
+    margin-bottom: 5vh; 
 }
 
 .hero-image-frame {
@@ -46,6 +47,7 @@
     border-radius: 16px; /* Rounded corners for the frame */
     margin-top: 5vh; /* Margin top */
     background-color: black;
+    margin-left: 10vw; 
 }
 
 .hero-image{

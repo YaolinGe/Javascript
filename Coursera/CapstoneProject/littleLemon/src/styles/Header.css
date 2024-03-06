@@ -10,3 +10,7 @@
     max-width: 20rem;
     flex: 0 1 auto; 
 }
+
+.nav {
+    margin-top: 2vh; 
+}

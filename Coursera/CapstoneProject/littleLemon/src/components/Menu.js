@@ -3,19 +3,20 @@ import Card from "./Card";
 import salad from "./../images/icons_assets/greek salad.jpg";
 import bruchetta from "./../images/icons_assets/bruchetta.svg";
 import dessert from "./../images/icons_assets/lemon dessert.jpg";
+import Button from "./Button";
 
 export default function Menu() {
   return (
     <div className="menu">
       <div className="menu-top">
         <h1 className="menu-title">This weeks specials!</h1>
-        <button className="menu-button">Online Menu</button>
+        <Button>Online Menu</Button>
       </div>
       <div className="menu-lists">
         <Card
           title="Greek salad"
           price="$12.99"
-          description="A fresh salad with feta cheese, olives, and tomatoes."
+          description="The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons. "
           image={salad}
         />
         <Card
