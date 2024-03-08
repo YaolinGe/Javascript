@@ -1,3 +1,7 @@
+import { BrowserRouter, Link, Route, Switch } from 'react-router-dom';
+import "./../styles/Nav.css"
+
+
 export default function Nav() {
     return (
         <nav>

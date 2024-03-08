@@ -1,6 +1,6 @@
 .box{
     background-color: aquamarine;
-    border-radius: 5px;
+    border-radius: 10rem;
     margin: 2px;
     padding: 10px;
     flex: 1 0 100px;

@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap');
+
+.hero{
+    background-color: #495e57;
+    height: 35vh; 
+    display: grid;
+    grid-template-columns: repeat(2, 30vw);
+    grid-template-rows: auto;
+    grid-gap: 5vw; 
+    justify-content: center;
+    margin: 10vh 0; 
+}
+
+.hero-description {
+    display: flex;
+    flex-direction: column; 
+}
+
+.hero-title {
+    color: #f4ce14; 
+    font-family: 'Markazi Text', sans-serif;
+    font-weight: 100;
+    font-size: 5vh; 
+}
+
+.hero-subtitle {
+    color: #edefee; 
+    font-family: 'Markazi Text', sans-serif;
+    font-weight: lighter; 
+    font-size: 3vh;
+    margin: 0; 
+}
+
+.hero-text {
+    color: #edefee; 
+    font-family: 'Karla', sans-serif;
+    font-size: 1.5vh; 
+    font-weight: lighter;
+    margin-right: 5vw; 
+    margin-bottom: 5vh; 
+}
+
+.hero-image-frame {
+    height: 350px;
+    width: 300px; 
+    overflow: hidden;
+    border-radius: 16px; /* Rounded corners for the frame */
+    margin-top: 5vh; /* Margin top */
+    background-color: black;
+    margin-left: 10vw; 
+}
+
+.hero-image{
+    object-fit: cover;  
+}

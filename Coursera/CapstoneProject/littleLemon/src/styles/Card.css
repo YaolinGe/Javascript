@@ -1,0 +1,70 @@
+:root {
+    --card-width: 22vw;
+}
+
+.card {
+    display: flex; 
+    flex-direction: column;
+    width: var(--card-width);
+    border-radius: 16px;
+    overflow: hidden; 
+    background-color: #edefee;
+}
+
+.card-image {
+    width: var(--card-width);
+    height: 20vh; 
+    object-fit: cover;
+}
+
+.card-body {
+    display: grid; 
+    grid-template-areas: "title price"
+                         "description description"
+                         "delivery delivery";
+}
+
+.card-title {
+    grid-area: title; 
+    font-family: 'Markazi Text', sans-serif; 
+    font-size: 2.5rem; 
+    font-weight: 500; 
+    color: #333333; 
+    display: flex;
+    align-items: center;
+    margin: 0; 
+    padding: 0; 
+    margin-left: 1vw; 
+    margin-top: 2vh; 
+}
+
+.card-price {
+    grid-area: price; 
+    font-family: 'Markazi Text', sans-serif; 
+    font-size: 1.5rem; 
+    font-weight: 500; 
+    color: #ee9972; 
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: 0; 
+    padding: 0; 
+    margin-left: 1vw; 
+    margin-right: 1vw; 
+    margin-top: 2vh; 
+}
+
+.card-description {
+    grid-area: description; 
+    font-family: 'Karla', sans-serif; 
+    width: 18vw; 
+    height: 15vh; 
+    font-size: 1rem; 
+    font-weight: 500; 
+    color: #333333; 
+    margin-left: 1vw; 
+}
+
+.card-button {
+    margin-left: 1vw; 
+}
