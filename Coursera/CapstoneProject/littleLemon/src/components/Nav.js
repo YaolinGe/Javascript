@@ -1,7 +1,13 @@
 export default function Nav() {
     return (
         <nav>
-            Here comes the navigation bar
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="about" element={<About />} />
+                <Route path="services" element={<Services />} />
+                <Route path="contact" element={<Contact />} />
+                <Route path="*" element={<Whoops404 />} />
+            </Routes>
         </nav>
     ); 
 }
