@@ -8,10 +8,9 @@ import "./../styles/Nav.css"
 export default function Nav() {
     return (
         <nav className="nav">
-                Here comes the navigation bar
             <ul>
                 <li>
-                    <a href="#">Home</a>
+                    <a href="/">Home</a>
                 </li>
                 <li>
                     <a href="#about">About</a>
@@ -20,7 +19,7 @@ export default function Nav() {
                     <a href="#">Menu</a>
                 </li>
                 <li>
-                    <a href="#">Reservations</a>
+                    <a href="booking">Reservations</a>
                 </li>
                 <li>
                     <a href="#">Order Online</a>
