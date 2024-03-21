@@ -43,8 +43,8 @@ const LandingSection = () => {
 
   useEffect(()=>{
     if (response) {
-      const {type, message} = response; 
-      onOpen(type, message); 
+      const {type, message} = response;
+      onOpen(type, message);
       console.log(type)
     }
   }, [response])
