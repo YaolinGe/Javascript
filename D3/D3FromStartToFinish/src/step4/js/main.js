@@ -1,5 +1,9 @@
 let data;
 
+let radiusScale = d3.scaleSqrt()
+    .domain([0, 100])
+    .range([0, 20])
+
 function update() {
     d3.select('#chart')
         .selectAll('circle')
@@ -9,13 +13,28 @@ function update() {
             return i * 10;
         })
         .attr('cy', 100)
-        .attr('r', 2);
+        .attr('r', function(d) {
+            return radiusScale(d.renewable);
+        });
+}
+
+function transformRow(d)
+{
+    return {
+        name: d.name, 
+        id: d.id, 
+        hydroelectric: parseFloat(d.hydroelectric),
+        nuclear: parseFloat(d.nuclear),
+        oilgascoal: parseFloat(d.oilgascoal),
+        renewable: parseFloat(d.renewable)
+    }
 }
 
 function dataIsReady(csv) {
     data = csv;
+    console.log(data);
     update();
 }
 
-d3.csv('data/data.csv')
+d3.csv('data/data.csv', transformRow)
     .then(dataIsReady);
